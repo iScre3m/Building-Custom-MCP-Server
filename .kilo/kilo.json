@@ -1,0 +1,11 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "workbook-tools": {
+      "type": "local",
+      "command": ["mvn", "-q", "compile", "exec:java"],
+      "environment": {},
+      "enabled": true
+    }
+  }
+}
